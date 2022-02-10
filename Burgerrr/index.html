@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Burger-calculator</title>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="size">
+            <h3>Выберите размер бургера</h3>
+            <input type="radio" date-cost="50" date-kkal="20" name="size" class="option">
+            <label for="info"> Маленький(50 рублей; 20 калорий).</label><br>
+            <input type="radio" date-cost="100" date-kkal="40" name="size" class="option">
+            <label for="info">Большой(100 рублей; 40 калорий).</label>
+        </div>
+
+        <div class="topping">
+            <h3>Выберите начинку</h3>
+            <input type="radio" date-cost="10" date-kkal="20" name="topping" class="option">
+            <label for="info">С сыром (+10 рублей; +20 калорий).</label><br>
+            <input type="radio" date-cost="10" date-kkal="20" name="topping" class="option">
+            <label for="info">С салатом (+10 рублей; +20 калорий).</label><br>
+            <input type="radio" date-cost="15" date-kkal="10" name="topping" class="option">
+            <label for="info">С картофелем (+15 рублей; +10 калорий).</label>
+        </div>
+
+        <div class="options">
+            <h3>Дополнительные опции</h3>
+            <input type="checkbox" date-cost="15" date-kkal="0" name="option1" class="option">
+            <label for="info">Посыпать приправой (+15 рублей; +0 калорий).</label><br>
+            <input type="checkbox" date-cost="20" date-kkal="5" name="option2" class="option">
+            <label for="info">Полить майонезом (+20 рублей; +5 калорий).</label>
+        </div>
+
+        <div class="submit">
+            <button id="check">Подтвердить</button>
+        </div>
+
+        <h4>Итого:</h4>
+        <p>Цена: <span id="price">0</span></p>
+        <p>Kkal: <span id="kkal">0</span></p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
