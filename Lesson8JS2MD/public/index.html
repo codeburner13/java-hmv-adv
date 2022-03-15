@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game SHOP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+</head>
+
+<body>
+    <div class="container" id="app">
+
+        <nav class="navbar is-info block m-4 px-4" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <p class="branding">Games 4 life</p>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <cart ref="cart"></cart>
+                            <filter-el></filter-el>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </nav>
+
+        <main>
+            <section class="latest-proj">
+                <h2 class="title is-4">Your choices are your choices.</h2>
+                <products ref="products"></products>
+
+            </section>
+
+        </main>
+    </div>
+    <script src=" https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/CartComp.js"></script>
+    <script src="js/ProducComp.js"></script>
+    <script src="js/FilterComp.js"></script>
+    <script src="js/ErrorComp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
