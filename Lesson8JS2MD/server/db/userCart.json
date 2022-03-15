@@ -1,0 +1,48 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 2,
+            "id_product": 3,
+            "product_name": "Dota 2",
+            "product_cat": "Strategy",
+            "price": 666
+        },
+        {
+            "quantity": 2,
+            "id_product": 2,
+            "product_name": "Squad",
+            "product_cat": "Shooter",
+            "price": 3200
+        },
+        {
+            "quantity": 3,
+            "id_product": 1,
+            "product_name": "S.T.A.L.K.E.R. 2",
+            "product_cat": "Shooter",
+            "price": 6000
+        },
+        {
+            "quantity": 2,
+            "id_product": 6,
+            "product_name": "The Witcher 3: Wild Hunt",
+            "product_cat": "Action/RPG",
+            "price": 1350
+        },
+        {
+            "quantity": 2,
+            "id_product": 5,
+            "product_name": "Day Z",
+            "product_cat": "Shooter",
+            "price": 2500
+        },
+        {
+            "quantity": 2,
+            "id_product": 4,
+            "product_name": "Project Winter",
+            "product_cat": "Adventure",
+            "price": 980
+        }
+    ]
+}
