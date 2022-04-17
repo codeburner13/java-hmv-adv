@@ -1,0 +1,146 @@
+.products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 50px 50px;
+    background-color: #bdbcbc;
+    border: 1px solid black;
+  }
+  
+  .product-item {
+    border: 1px solid black;
+    background-color: #ccc8c8;
+    text-align: center;
+  }
+  
+  img {
+    width: 200px;
+  }
+  
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border: 1px solid black;
+    padding: 20px 20px 20px 20px;
+    background-color: #a8a6a6;
+    position: relative;
+  }
+  
+  .btn-cart {
+    font-size: 20px;
+    color: black;
+    border-radius: 20px;
+    padding: 6px;
+  }
+  
+  .buy-btn {
+    margin-bottom: 10px;
+  }
+  
+  .product-title {
+    color: #222423;
+  }
+  
+  .product-price {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+  }
+  
+  .cart-float {
+    background-color: white;
+    width: 20%;
+    position: absolute;
+    margin-right: 25px;
+    right: 0;
+    border: 1px solid #413f3f;
+  }
+  
+  .product-card {
+    margin: 10px;
+  }
+  
+  .cart-product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .right {
+    margin-left: 50px;
+  }
+  
+  .invisible {
+    display: none;
+  }
+  
+  .logo {
+    margin: auto 0px;
+  }
+  
+  .search-field {
+      box-sizing: border-box;
+      width: 200px;
+      color: #fafafa;
+      padding: 10px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid #fafafa;
+  }
+  
+  .btn-search {
+      background-color: transparent;
+      border: none;
+      color: #fafafa;
+      font-size: 1.2em;
+      position: absolute;
+      bottom: 5px;
+      right: 0;
+  }
+  .search-form{
+      position: relative;
+      margin-right: 50px;
+      display: inline-block;
+  }
+  .search-field:focus{
+      outline: none;
+  }
+  
+  .product-bio{
+    display: flex;
+  }
+  .cart {
+    display: flex;
+  }
+  .cart-block {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #413f3f;
+    margin-left: -170px;
+  }
+  
+  .cart-item img{
+    margin-right: 15px;
+    width: 100px;
+    height: 60px;
+  }
+  
+  .cart-item {
+    padding: 10px;
+  }
+  
+  .right-block{
+    text-align: right;
+  }
+  
+  .del-btn {
+  margin-left: 30px;
+  }

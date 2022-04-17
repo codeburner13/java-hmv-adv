@@ -1,0 +1,30 @@
+[
+  {
+    "id_product": 100,
+    "product_name": "Лисичка",
+    "price": 666,
+    "imgProduct": "./img/products/tmb_203552_5658.png",
+    "imgCart": "./img/cart/tmb_203552_5658.png"
+  },
+  {
+    "id_product": 200,
+    "product_name": "Зайчик",
+    "price": 1000,
+    "imgProduct": "./img/products/tmb_203552_5658.png",
+    "imgCart": "./img/cart/tmb_203552_5658.png"
+  },
+  {
+    "id_product": 278,
+    "product_name": "Медвежонок",
+    "price": 1600,
+    "imgProduct": "./img/products/tmb_203552_5658.png",
+    "imgCart": "./img/cart/tmb_203552_5658.png"
+  },
+  {
+    "id_product": 792,
+    "product_name": "Волчок",
+    "price": 777,
+    "imgProduct": "./img/products/tmb_203552_5658.png",
+    "imgCart": "./img/cart/tmb_203552_5658.png"
+  }
+]
